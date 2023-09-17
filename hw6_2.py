@@ -75,6 +75,6 @@ def qween_check(lst:list):
 #     return '\n'.join(lst_true)
 
 #a = [[1,1], [2,8], [3,2], [4,5], [5,7], [6,3], [8,6]]
-a = 8
+a = int(input('введите количество ферзей, которых нужно расставить на доске:'))
 qw = qween_lst(a)
 print(qween_lst(a), qween_check(qw), sep='\n')
